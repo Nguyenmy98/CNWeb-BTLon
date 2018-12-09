@@ -4,9 +4,10 @@
 
 <div id = "main">
    <br> <br>
-<div id="left">
+  
+
     <div class="row">  
-      <div class= "col-md-2"> </div>
+      <div class= "col-md-2">  </div>
       
         <div class= "col-md-8">
         <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -48,17 +49,17 @@
         </div>
     </div>
     <div class= "col-md-2"></div>
-    </div>    
-
+       
+    </div>
         <br> <br>
          <center> <font face="Comic sans MS" size="9">Phim Hot THáng 12</font> </center>
-        
+  
        
         <br><br>
         <div class="row">
-            <div class="col-md-1"> </div>
-            <div class="col-md-3"> 
-                <img src= "robin hood.jpg" class="img-thumbnail" alt="">
+            
+            <div class="col-md-4"> 
+                <center><img src= "robin hood.jpg" class="img-thumbnail" alt="">
                     <div class ="caption">
                         <h4>Robin hood</h4>
                         <p>
@@ -66,9 +67,10 @@
                             <a href="#" class="btn btn-danger">Đặt vé</a>
                         </p>
                     </div>
+                </center>
             </div>
             <div class="col-md-4"> 
-                <img src= "Ralph breaks the internet.jpg" class="img-thumbnail" alt="">
+                <center><img src= "Ralph breaks the internet.jpg" class="img-thumbnail" alt="">
                     <div class ="caption">
                         <h4>Ralph breaks the internet</h4>
                         <p>
@@ -76,9 +78,10 @@
                             <a href="#" class="btn btn-danger">Đặt vé</a>
                         </p>
                     </div>
+                </center>
             </div>
             <div class="col-md-4"> 
-                <img src= "comaytuthan.jpg" class="img-thumbnail" alt="">
+                <center><img src= "comaytuthan.jpg" class="img-thumbnail" alt="">
                     <div class ="caption">
                         <h4>Cỗ máy tử thần</h4>
                         <p>
@@ -86,13 +89,14 @@
                             <a href="#" class="btn btn-danger">Đặt vé</a>
                         </p>
                     </div>
+                </center>
             </div>
         </div>
         <div class=row></div>
         <div class="row">
-            <div class = "col-md-1"></div>
-            <div class = "col-md-3">
-                <img src= "hunter killer.jpg" class="img-thumbnail" alt="">
+            
+            <div class = "col-md-4">
+               <center> <img src= "hunter killer.jpg" class="img-thumbnail" alt="">
                     <div class ="caption">
                         <h4>Hunter killer</h4>
                         <p>
@@ -100,10 +104,11 @@
                             <a href="#" class="btn btn-danger">Đặt vé</a>
                         </p>
                     </div>
+                </center>    
             </div>
       
             <div class = "col-md-4">
-                <img src= "toiac.jpg" class="img-thumbnail" alt="">
+               <center> <img src= "toiac.jpg" class="img-thumbnail" alt="">
                     <div class ="caption">
                         <h4>Tội ác</h4>
                         <p>
@@ -111,10 +116,12 @@
                             <a href="#" class="btn btn-danger">Đặt vé</a>
                         </p>
                     </div>
+                </center>    
             </div>
         
             <div class = "col-md-4">
-                <img src= "fat-buddies.jpg" class="img-thumbnail" alt="">
+            
+                <center><img src= "fat-buddies.jpg" class="img-thumbnail" alt="">
                     <div class ="caption">
                         <h4>Fat-buddies</h4>
                         <p>
@@ -122,9 +129,10 @@
                             <a href="#" class="btn btn-danger">Đặt vé</a>
                         </p>
                     </div>
+                </center>    
             </div>
         </div>
-    </div>    
+       
     </div>
     
     <div id="bootom">
