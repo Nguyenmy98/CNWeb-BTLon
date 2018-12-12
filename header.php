@@ -7,25 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Đặt vé phim online </title>
-    <link href="style1.css" rel="stylesheet" type="text/css"/>
+    <link href="style1.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
+    
+    
+    
+    <div id = "banner">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: brown;height:40px">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#banner" style="color:white">HM Cinema</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive" >
+          <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="giaodien.php"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="phim.php"><b>Phim</b></a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio"><b>Rạp/Giá vé</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact"><b>Khuyến mãi</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
     <div id = "menu_top">
-        <ul>
-            <li><a class="dangnhap" href="login.php" title = "Đăng Nhập"><b>Đăng Nhập</b></a></li>
-            <li><a class="dangky" href="dangky.php" title = "Đăng Ký"><b>Đăng ký thành viên</b></a></li>
-        </ul>
+    <br>
+    <div class="row">
+        <div class="col-md-7"></div>        
+        <div class="col-md-2" > <a  href="login.php" title = "Đăng Ký"><b>Đăng Nhập</b></a></div>
+       <div class="col-md-2" ><a  href="dangky.php" title = "Đăng Ký"><b>Đăng ký thành viên</b></a></div>
+            
+    </div>
     </div>
     <div id="anhtieude">
         <img src="anhtieude.jpg" alt="" class="img-tieude">
     </div>
-    <div id = "banner">
-        <ul>
-            <li><a href="giaodien.php" title = "Home"><b>HOME</b></a></li>
-            <li><a href="#" title = "Phim"><b>PHIM</b></a></li>
-            <li><a href="#" title = "Mua Vé"><b>MUA VÉ</b></a></li>
-            <li><a href="#" title = "Rạp/Giá Vé"><b>RẠP/GIÁ VÉ</b></a></li>
-            <li><a href="#" title = "Khuyến Mãi"><b>KHUYẾN MÃI</b></a></li>
-        </ul>
-    </div>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
